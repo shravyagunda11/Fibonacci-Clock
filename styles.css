@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('Montserrat-Regular.ttf');
+}
+
+html {
+    position: relative; 
+    min-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
+    background: #2b2b2b;
+    text-align: center;
+}
+
+h1 {
+    font-family: "SourceSansPro-Regular";
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    background: #2b2b2b;
+}
+
+.red-square {
+    background-color: #941406;
+}
+
+.green-square {
+    background-color: #277a42;
+}
+
+.blue-square {
+    background-color: #215085;
+}
+
+.gray-square {
+    background-color: #dbdbdb;
+}
+
+#small-square-one, #small-square-two {
+    width: 100px;
+    height: 100px;
+}
+
+#small-square-two {
+    top: 100px;
+}
+
+#medium-square {
+    width: 200px;
+    height: 200px;
+}
+
+#large-square {
+    width: 300px;
+    height: 260px;
+}
+
+#largest-square {
+    width: 300px;
+    height: 460px;
+}  
+
+button {
+    font-family: "Montserrat-Regular";
+    padding: 15px;
+    background-color: #2b2b2b;
+    color: white;
+    margin: 20px;
+    margin-top: 30px;
+    border: 2px solid #215085;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background: #215085; 
+}
+
+button:active {
+    background: #215085; 
+    border: 3px solid #215085;
+}
+
+.appearance-button {
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    padding: 10px;
+    background-color: #2b2b2b;
+    color: white;
+    margin: 0;
+    border: 2px solid #215085;
+    cursor: pointer;
+}
+
+.appearance-button:hover {
+    color: white;
+    background: #215085; 
+}
+
+.appearance-button:active {
+    background: #215085; 
+    border: 3px solid #215085;
+}
+
+.appearance-light {
+    background: #dbdbdb;
+}
+
+.appearance-light h1 {
+    color: black;
+}
+
+.appearance-light .container {
+    border: 2px solid black;
+}
+
+.appearance-light .square {
+    background: #dbdbdb;
+}
+
+.appearance-light .red-square {
+    background-color: #941406;
+}
+
+.appearance-light .green-square {
+    background-color: #277a42;
+}
+
+.appearance-light .blue-square {
+    background-color: #215085;
+}
+
+.appearance-light .gray-square {
+    background-color: #2b2b2b;
+}
+
+.appearance-light button {
+    background-color: #dbdbdb;
+    color: black;
+    border: 2px solid #215085;
+}
+
+.appearance-light button:hover {
+    color: white;
+    background: #215085; 
+}
+
+.appearance-light button:active {
+    background: #215085; 
+    border: 3px solid #215085;
+}
